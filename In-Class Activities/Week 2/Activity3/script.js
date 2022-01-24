@@ -1,5 +1,5 @@
 console.log("Hello world");
-// Group 7 Samuel Scherer,
+// Group 7 Samuel Scherer, ??
 
 d3.csv('data/disasters.csv')
   .then(data => {  //ARROW function - pass data as a parameter into this anonymous function

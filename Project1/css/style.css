@@ -1,0 +1,61 @@
+.legend {
+    display: inline;
+    white-space: nowrap;
+    /* float: left; */
+    margin: 20px 0;
+    list-style: none;
+    padding: 0;
+}
+.legend-symbol {
+    width: 12px;
+    height: 12px;
+    margin-right: 3px;
+    display: inline-block;
+  }
+.legend-btn[category="median-aqi"] .legend-symbol {
+    background: #ffa600;
+}
+.legend-btn[category="max-aqi"] .legend-symbol {
+    background: #003f5c;
+}
+.legend-btn[category="percentile-aqi"] .legend-symbol {
+    background: #bc5090;
+}
+
+.legend-btn[category="co"] .legend-symbol {
+    background: #003f5c;
+}
+.legend-btn[category="no2"] .legend-symbol {
+    background: #444e86;
+}
+.legend-btn[category="ozone"] .legend-symbol {
+    background: #955196;
+}
+.legend-btn[category="so2"] .legend-symbol {
+    background: #dd5182;
+}
+.legend-btn[category="pm25"] .legend-symbol {
+    background: #ff6e54;
+}
+.legend-btn[category="pm10"] .legend-symbol {
+    background: #ffa600;
+}
+
+.county1{
+    display: inline;
+    white-space: nowrap;
+    float: left;
+    width: 50%;
+}
+
+.county2{
+    display: inline;
+    white-space: nowrap;
+    float: right;
+    width: 50%;
+}
+
+.bar {
+    shape-rendering: crispEdges;
+  }
+
